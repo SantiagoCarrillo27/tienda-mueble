@@ -3,7 +3,7 @@
 
 :root{
     --bs-blue: #037BC0;
-    --bs-green:#8cbc00;
+    --bs-green:#8005a2de;
 }
 
 html{
@@ -56,13 +56,16 @@ h3{
 .text-primary,
 .nombre-sitio{
     color: var(--bs-blue)!important;
+
 }
 
 .btn-success{
     background-color: var(--bs-green)!important;
 }
-.bg-primary{
+.bg-primary,
+.btn-primary{
     background-color: var(--bs-blue)!important;
+
 }
 
 .hero{
@@ -97,4 +100,18 @@ h3{
 .categoria img:hover{
     transform: scale(1.2);
 
+}
+
+.galeria li:not(:last-of-type){
+    margin-bottom: 1rem;
+}
+
+
+.cursor__galeria{
+    cursor: pointer;
+}
+
+.form-control{
+    font-size: 1.6rem;
+    padding: .8rem;
 }

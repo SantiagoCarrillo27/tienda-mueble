@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/app.css">
-    <title>Nosotros</title>
+    <title>Ecommerce - Galería</title>
 </head>
 
 <body>
@@ -44,24 +44,67 @@
 
 
     <main class="container-xl">
-        <h2 class="text-center my-5 ">Sobre Nosotros</h2>
+        <h2 class="text-center my-5">Galería</h2>
+        <ul class="row list-unstyled galeria">
 
-        <div class="row g-5 align-items-center">
-            <div class="col-md-6">
-                <img src="img/nosotros.jpg" alt="Imágen sobre nosotros" class="img-fluid">
-            </div>
-            <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cumque eaque repudiandae corrupti
-                    voluptates reiciendis assumenda officiis, maiores perferendis, magni dignissimos dolor aliquam
-                    beatae commodi hic vitae consequuntur vero quas!
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo reprehenderit molestias et labore,
-                    culpa ullam voluptatem possimus aperiam dolores recusandae eos delectus neque molestiae laborum vel
-                    consectetur fugiat fugit sequi?</p>
-            </div>
-        </div>
+            <li class="col-lg-4 col-md-6 overflow-hidden categoria cursor__galeria">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_01" >
+                    <img src="img/galeria_01.jpg" alt="Imágen Galería" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-lg-4 col-md-6 overflow-hidden categoria cursor__galeria">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_02">
+                    <img src="img/galeria_02.jpg" alt="Imágen Galería" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-lg-4 col-md-6 overflow-hidden categoria cursor__galeria">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_03">
+                    <img src="img/galeria_03.jpg" alt="Imágen Galería" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-lg-4 col-md-6 overflow-hidden categoria cursor__galeria">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_04">
+                    <img src="img/galeria_04.jpg" alt="Imágen Galería" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-lg-4 col-md-6 overflow-hidden categoria cursor__galeria">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_05">
+                    <img src="img/galeria_05.jpg" alt="Imágen Galería" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-lg-4 col-md-6 overflow-hidden categoria cursor__galeria">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_06">
+                    <img src="img/galeria_06.jpg" alt="Imágen Galería" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-lg-4 col-md-6 overflow-hidden categoria cursor__galeria">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_07">
+                    <img src="img/galeria_07.jpg" alt="Imágen Galería" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-lg-4 col-md-6 overflow-hidden categoria cursor__galeria">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_08">
+                    <img src="img/galeria_08.jpg" alt="Imágen Galería" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-lg-4 col-md-6 overflow-hidden categoria cursor__galeria">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_09">
+                    <img src="img/galeria_09.jpg" alt="Imágen Galería" class="img-fluid">
+                </a>
+            </li>
+        </ul>
 
     </main>
+
+    <div class="modal fade" id="modal-imagen">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 
@@ -102,6 +145,7 @@
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
